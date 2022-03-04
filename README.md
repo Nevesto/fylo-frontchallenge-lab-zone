@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with alternating feature blocks
+# Frontend Mentor
 
 <!-- To do this challenges, you need a basic understanding of HTML and CSS. -->
 
