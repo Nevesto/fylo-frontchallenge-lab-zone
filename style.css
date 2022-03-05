@@ -34,11 +34,26 @@ img {
 	font-size: 16px;
 	font-weight: 700;
 	padding: 15px 60px;
+	transition: 0.3s all;
+	border: 1px solid transparent;
+}
+
+.btn:hover {
+	background-color: #ff52bf;
+	color: #fff;
 }
 
 .btn-primary {
 	background-color: hsl(322, 100%, 66%);
 	color: #fff;
+	border: 1px solid transparent;
+	transition: 0.3s all;
+}
+
+.btn-primary:hover {
+	background-color: #fff;
+	color: hsl(322, 100%, 66%);
+	border: 1px solid hsl(322, 100%, 66%);
 }
 
 .container {
@@ -57,8 +72,17 @@ img {
 	align-items: center;
 }
 
-.flex > div,
-.flex > ul {
+.flex ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.flex ul li a:hover {
+	text-decoration: underline;
+}
+
+.flex>div,
+.flex>ul {
 	flex: 1;
 }
 
@@ -134,7 +158,23 @@ footer .circle {
 	margin-right: 10px;
 	height: 40px;
 	width: 40px;
-	text-decoration: none;
+	text-decoration: none !important;
+	transition: 0.3s all;
+}
+
+footer ul li:nth-child(1) .circle:hover {
+	color: #4267B2;
+	border: 1px solid #4267B2;
+}
+
+footer ul li:nth-child(2) .circle:hover {
+	color: #1DA1F2;
+	border: 1px solid #1DA1F2;
+}
+
+footer ul li:nth-child(3) .circle:hover {
+	color: #FCAF45;
+	border: 1px solid #FCAF45;
 }
 
 footer p {
